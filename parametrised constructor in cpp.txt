@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+class bach
+{
+    
+    public:
+    char name[10],rollno[10];
+    bach(float marks)
+    {
+        cout<<"enter the name : ";
+        cin>>name;
+        cout<<"roll no : ";
+        cin>>rollno;
+        cin>>marks;
+        cout<<name ;
+        cout<<"Roll : "<<rollno<<"\n Marks : "<<marks;
+    }
+    
+};
+int main() {
+	
+   bach s1(7);
+
+
+    return 0;
+}

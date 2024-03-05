@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+class bcah
+{
+	
+	char name[10] =  "C_program";
+	int sub_code = 202;
+	
+	public : 
+	
+	input(){
+		
+		cout<<"Under the private : ";
+		
+	}
+	friend void disp(bcah s1);
+	
+};
+
+void disp(bcah s1)
+{
+	int name = 10, sub_code =50;
+	
+	cout<<name<<endl;
+	cout<<sub_code;
+}
+
+int main(){
+	
+	bcah s1;
+	
+	s1.input();
+	
+	disp(s1);
+	
+return 0;	
+}

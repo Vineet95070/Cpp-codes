@@ -1,0 +1,25 @@
+// demo.h
+
+namespace Vineet 
+{
+	int vineet;
+}
+
+// main program in c++
+
+#include <iostream>
+#include "demo.h"
+using namespace std;
+using namespace Vineet;
+
+int main()
+{
+	
+	cout<<"Hello World : ";
+	
+	vineet=20;
+	
+	cout<<" "<<vineet;
+	
+return 0;	
+}

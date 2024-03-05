@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+//Inline function.
+
+inline int cube(int s)
+{
+	return s*s*s;
+}
+
+int main(){
+	
+	int num;
+	cout<<"Enter the Number : "<<num;
+	cin>>num;
+	
+	cout<<"cube = "<<cube(num);
+	
+return 0;	
+}

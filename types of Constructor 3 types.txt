@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+class rectangle
+{
+	int length, hight;
+	
+	public :
+		
+		rectangle()
+		{
+			length = 0;
+			hight = 0;
+			cout<<"Default Constructor : "<<endl;
+		}
+		
+		rectangle(int x, int y)
+		{
+			x = length;
+			y = hight;
+			cout<<"Parametrised Constructor : "<<endl;
+		}
+};
+
+int main(){
+	
+	rectangle r1;
+	rectangle r2(5,6);
+	
+return 0;	
+}

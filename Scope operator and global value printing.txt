@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int m=45;
+int main(){
+	
+	int m=10;
+	{
+		int a=m;
+		
+		m=20;
+		
+		cout<<"m = "<<m<<"\na = "<<a<<endl;
+		cout<<"m = "<<::m<<endl;
+		
+	}
+	
+	
+	
+return 0;	
+}

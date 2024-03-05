@@ -1,0 +1,18 @@
+#include <stdio.h>
+#define PI 3.1415           //Preprocesser Macron
+#define area(r) (PI*r*r)    //Preprocesser Macron
+
+
+int main(){
+	
+	int r;
+	int ar;
+	
+	printf("Enter the Radious : ");
+	scanf("%d", &r);
+	
+	ar = area(r);
+	printf("Area = %d", &ar);
+	
+return 0;	
+}

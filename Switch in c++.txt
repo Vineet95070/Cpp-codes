@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    char button;
+    cin>>button;
+
+    switch (button){
+
+        case 'a':
+        cout<<"Hello";
+        break;
+
+        case 'b':
+        cout<<"Namaste";
+        break;
+
+        case 'c':
+        cout<<"Holla";
+        break;
+
+        case 'd':
+        cout<<"Nice";
+        break;
+
+        default:
+        cout<<"I am still Learning more";
+        break;
+
+    }
+return 0;
+}

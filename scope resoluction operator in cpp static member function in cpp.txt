@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+class bcah
+{
+	public :
+		
+		int a;
+		static int b; 
+};
+
+int bcah::b=25;
+
+int main(){
+	
+	cout<<bcah::b;
+	
+return 0;	
+}
